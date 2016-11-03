@@ -1,0 +1,35 @@
+body {
+  background: #fff;
+  font-family: "Xin Gothic", "PT Sans", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+p small {
+  background: #EEE;
+  border-radius: 1rem;
+  padding: .1rem .5rem;
+}
+.scene-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: .1rem solid #EEE;
+  padding-bottom: 1rem;
+}
+.scene-thumbnail {
+  display: block;
+  border-radius: 1rem;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+  margin: auto;
+  border: .1rem solid #EEE;
+  padding: .5rem;
+}
+.scene-center {
+  width: 100%;
+  overflow: visible;
+  text-align: center;
+}
+.scene-word {
+  margin-top: 50%;
+  font-size: 1.5rem;
+}

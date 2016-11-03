@@ -1,0 +1,65 @@
+body{
+ 	background: #252222;
+ 	font-size: 62.5%;
+ 	overflow: hidden;
+ 	padding: 0;
+ 	margin: 0;
+
+ }
+div {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+#app{
+	position: absolute;
+ 	left: 0;
+ 	top: 0;
+ 	margin: 0;
+ 	padding: 0;
+ 	width: 100%;
+ 	height: 100%;
+ 	overflow: hidden;
+}
+
+.scene{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	transform: translateY(0);
+	visibility: hidden;
+	//transition: top 1s,opacity 1s, bottom 1s;
+	
+}
+
+@keyframes app-sound-icon-frames
+{
+	0% {
+		-webkit-transform: rotate(0);
+		   -moz-transform: rotate(0);
+		        transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+		   -moz-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+.app-sound-icon{
+	background: url(../image/sound-off.png) #EEE;
+	background-size: cover;
+	border-radius: 50%;
+	width:2rem;
+	height:2rem;
+	position: absolute;
+	top: 8rem;
+	right:1rem;
+	z-index: 999999;
+	display: none;
+}
